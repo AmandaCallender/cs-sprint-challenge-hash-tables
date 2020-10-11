@@ -1,4 +1,4 @@
-# Sprint Challenge: Hash Tables
+# Sprint Challenge: Hash Tables - Amanda Callender
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
