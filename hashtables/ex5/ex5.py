@@ -6,7 +6,25 @@ def finder(files, queries):
     """
     YOUR CODE HERE
     """
-    # Your code here
+    cache = {}
+    result = []
+
+    for path in files:
+        file_item = path.split('/')[-1]
+
+        if file_item in cache:
+            cache[file_item].append(path)
+        else:
+            cache[file_item] = [path]
+
+    for q in queries:
+        if q in cache:
+            results = cache[q]
+            for path in results:
+                result.append(path)
+
+        else:
+            pass
 
     return result
 
